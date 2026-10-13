@@ -29,6 +29,11 @@ st.set_page_config(
 # Title
 st.markdown("# LETRA: LanguagE TRAnsformations")
 
+# This version is no longer updated: LETRA moved to its own site.
+st.warning("**LETRA has moved.** This version is no longer updated. Please use the new one at "
+           "[dirdam.squadro.app/letra](https://dirdam.squadro.app/letra/). "
+           "Source code: [github.com/dirdam/letra](https://github.com/dirdam/letra).")
+
 # Sidebar
 lang_options = {
     'Español': 'es',
